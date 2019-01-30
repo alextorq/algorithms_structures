@@ -1,9 +1,10 @@
 /**
 	@description сдвиг массива на указанное число
-	@param switch число на которое сдвигать массив
-	@param array array входной массив для сдвига
-	@return array
+	@param  {number} switchCount число на которое сдвигать массив
+	@param {Array} array  входной массив для сдвига
+	@return {Array} array 
 */
+
 
 function switchArray(array, switchCount) {
 	let length = array.length - 1;
