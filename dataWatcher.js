@@ -25,11 +25,11 @@ class DataWatcher {
 				*/
 				Object.defineProperty(data, key, {
 					get() {
-						dep.depend() 
+						dep.depend();
 						return internalValue
 					},
 					set(newVal) {
-						internalValue = newVal
+						internalValue = newVal;
 						dep.rerend() 
 
 					}
