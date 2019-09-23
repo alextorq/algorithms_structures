@@ -3,7 +3,7 @@
  * @param {String} string 
  * @return {Boolean} status
  */
-function polindrom(string) {
+function palindrom(string) {
   let middleString = Math.floor(string.length);
   let str = string.toUpperCase();
   for (let i = 0; i < middleString; i++) {
@@ -16,6 +16,6 @@ function polindrom(string) {
 }
 
 
-let result = polindrom('haha');
+let result = palindrom('haha');
 
-console.log(result)
+console.log(result);
