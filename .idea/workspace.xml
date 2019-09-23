@@ -2,87 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1bbed59-1aa5-4b50-ba4d-29ff8c318198" name="Default" comment="add fix stack">
-      <change beforePath="$PROJECT_DIR$/Observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polindrom.js" beforeDir="false" afterPath="$PROJECT_DIR$/polindrom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seasons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortDiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/stack.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algorithms_structures$All_Tests.info" NAME="All Tests Coverage Results" MODIFIED="1566235417034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/isertSort.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/binar.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finite_state_machine.js">
+        <entry file="file://$PROJECT_DIR$/main_js 2.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stack.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/switchArray.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/binar.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Observer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/binarThee.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Observer/index_.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1998" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/bubble.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_js.js">
+        <entry file="file://$PROJECT_DIR$/dataWatcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2268" />
+            <state relative-caret-position="-1382" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList.js">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-504" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Observer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2268" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/polindrom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -93,19 +88,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/switchArray.js" />
-        <option value="$PROJECT_DIR$/dataWatcher.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/Observer.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/seasons/test.js" />
+        <option value="$PROJECT_DIR$/polindrom.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-8" />
-    <option name="width" value="1922" />
-    <option name="height" value="1089" />
+    <option name="x" value="1890" />
+    <option name="y" value="24" />
+    <option name="width" value="1918" />
+    <option name="height" value="1048" />
   </component>
+  <component name="ProjectId" id="1Pe6CC9ClnlNVS6KfzwQFeZJdqb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -114,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,24 +117,22 @@
               <item name="algorithms_structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms_structures" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithms_structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms_structures" type="462c0819:PsiDirectoryNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seasons/test.js" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,6 +145,37 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Jest.test.js">
+    <configuration name="test.js" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/seasons/test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.test.js" />
+      <item itemvalue="npm.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -178,6 +203,13 @@
       <workItem from="1552991554188" duration="4000" />
       <workItem from="1553074329923" duration="608000" />
       <workItem from="1566127610350" duration="168000" />
+      <workItem from="1566127827210" duration="29000" />
+      <workItem from="1566222648604" duration="9000" />
+      <workItem from="1566223439746" duration="49000" />
+      <workItem from="1566234841810" duration="1037000" />
+      <workItem from="1566282517302" duration="6000" />
+      <workItem from="1566330649610" duration="24000" />
+      <workItem from="1569250140339" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1548496652542</created>
@@ -235,11 +267,50 @@
       <option name="project" value="LOCAL" />
       <updated>1566127671247</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add fix stack">
+      <created>1566127845917</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566127845917</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Зима - 2019.08.19 at 20h 14m 30s.xml">
+      <configuration name="Зима" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="seasons_test_js - 2019.08.19 at 20h 14m 56s.xml">
+      <configuration name="seasons/test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="seasons_test_js - 2019.08.19 at 20h 15m 16s.xml">
+      <configuration name="seasons/test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Зима - 2019.08.19 at 20h 16m 37s.xml">
+      <configuration name="Зима" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="seasons_test_js - 2019.08.19 at 20h 17m 57s.xml">
+      <configuration name="seasons/test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="All_Tests - 2019.08.19 at 20h 23m 23s.xml">
+      <configuration name="All Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="All_Tests - 2019.08.19 at 20h 23m 36s.xml">
+      <configuration name="All Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="All_Tests - 2019.08.19 at 20h 23m 58s.xml">
+      <configuration name="All Tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_js - 2019.08.19 at 20h 25m 49s.xml">
+      <configuration name="test.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_js - 2019.08.19 at 20h 26m 00s.xml">
+      <configuration name="test.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4260000" />
+    <option name="totallyTimeSpent" value="1228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,26 +322,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25250396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5219612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39938712" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32890704" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32977587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,22 +360,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="add fix stack" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataWatcher.js">
+    <entry file="file://$PROJECT_DIR$/seasons/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="644">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="14" selection-start-column="14" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seasons/seasons.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_js 2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binar.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/binarThee.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -311,55 +392,30 @@
     <entry file="file://$PROJECT_DIR$/bubble.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Observer.js">
+    <entry file="file://$PROJECT_DIR$/dataWatcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Observer/index_.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1998" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2268" />
+        <state relative-caret-position="-1382" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/isertSort.js">
+    <entry file="file://$PROJECT_DIR$/main_js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
+        <state relative-caret-position="-504" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack.js">
+    <entry file="file://$PROJECT_DIR$/Observer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
+        <state relative-caret-position="-2268" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/switchArray.js">
+    <entry file="file://$PROJECT_DIR$/polindrom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="252">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finite_state_machine.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binar.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

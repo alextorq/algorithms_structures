@@ -3,7 +3,7 @@
 class Stack {
 
   constructor() {
-      this._list = [];
+    this._list = [];
   }
 
   push(item) {

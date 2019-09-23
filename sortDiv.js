@@ -1,5 +1,5 @@
 
-﻿var divs = document.querySelectorAll('div');
+var divs = Array.from(document.querySelectorAll('div'));
 
 var mapArray = [[], [], []];
 
