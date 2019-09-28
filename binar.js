@@ -1,6 +1,6 @@
 
 
-function binarSerch(array, value) {
+function binarSearch(array, value) {
   let firstIndex = 0;
   let lastIndex = array.length - 1;
 
@@ -22,6 +22,6 @@ function binarSerch(array, value) {
 
 let sortArray = [1,2,3,4,5,6,7,8,9,10];
 
-let result = binarSerch(sortArray, 8);
+let result = binarSearch(sortArray, 8);
 
 console.log(result);
