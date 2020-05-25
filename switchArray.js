@@ -8,7 +8,7 @@
 
 function switchArray(array, switchCount) {
 	let length = array.length - 1;
-	let direction = (switchCount > 0) ? true : false
+	let direction = switchCount > 0;
 	switchCount = Math.abs(switchCount);
 	while(switchCount){
 
