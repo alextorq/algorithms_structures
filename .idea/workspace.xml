@@ -20,29 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1bbed59-1aa5-4b50-ba4d-29ff8c318198" name="Default" comment="add matrix">
-      <change afterPath="$PROJECT_DIR$/AlarmState/AlarmClock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlarmState/AlarmState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlarmState/BellState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlarmState/ClockState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlarmState/State.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AlarmState/tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FSM/main_js 2.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FSM/main_js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asyncFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/differentArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getQuadrant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniWatterWall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverseLinkedList/Node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverseLinkedList/reverse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seasons/seasons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seasons/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/switchArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/switchArray.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,15 +50,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/seasons/test.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.flat.js">
     <configuration name="test.js" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
@@ -132,6 +114,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -188,6 +171,7 @@
       <workItem from="1575212192085" duration="858000" />
       <workItem from="1575214156939" duration="4000" />
       <workItem from="1590427798820" duration="146000" />
+      <workItem from="1610200639977" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1548496652542</created>
@@ -286,7 +270,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -298,6 +282,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
