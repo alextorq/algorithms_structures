@@ -1,7 +1,7 @@
 function process(width, queue) {
     let next = 0;
     const resolvers = Array(queue.length);
-    const results = queue.map((f, i) => new Promise(resolve => {
+    const results = queue.map((_, i) => new Promise(resolve => {
         resolvers[i] = resolve;
     }));
 
@@ -40,3 +40,17 @@ const requests = [
     console.log(result);
 })();
 
+
+
+
+function getSums(arr) {
+    return arr.reduce((accum, current, index) => {
+        let sum = current;
+        const prev = accum[index - 1];
+        if  (prev) {
+            sum += prev;
+        }
+        accum.push(sum)
+        return accum;
+    });
+}

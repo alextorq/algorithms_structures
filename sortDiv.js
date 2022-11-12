@@ -1,11 +1,9 @@
 
-var divs = Array.from(document.querySelectorAll('div'));
+const divs = Array.from(document.querySelectorAll('div'));
 
-var mapArray = [[], [], []];
+const mapArray = [[], [], []];
 
-
-for (var div in divs) {
-    var index = div % 3;
+for (let div in divs) {
+    const index = div % mapArray.length;
     mapArray[index].push(divs[div]);
-​
 }

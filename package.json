@@ -23,6 +23,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/alextorq/algoritm_stacture/issues"
   },

@@ -1,6 +1,6 @@
 /**
  * Test word on polindrom
- * @param {String} string 
+ * @param {String} string
  * @return {Boolean} status
  */
 function palindrom(string) {
@@ -10,7 +10,6 @@ function palindrom(string) {
     if (str[i] !== str[(str.length - i - 1)] ) {
       return false;
     }
-    
   }
   return true;
 }

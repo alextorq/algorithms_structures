@@ -1,7 +1,7 @@
 /**
  *  Async filter array
  * @param {array} coll
- * @param {Function} predicate
+ * @param {(item: any) => boolean} predicate
  * @param {Function} cb
  */
 export default function asyncFilter(coll, predicate, cb) {

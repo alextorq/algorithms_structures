@@ -1,4 +1,4 @@
-var unSortArray = [44, 56, 55, 0, 11, 784, 994, 12, 10, 4, 8];
+const unSortArray = [44, 56, 55, 0, 11, 784, 994, 12, 10, 4, 8];
 
 
 function bubbleSort(array) {
@@ -7,14 +7,14 @@ function bubbleSort(array) {
     // по умолчанию выключаем дальнейший перебор массива
     switcher = false;
 
-    for (var i = 0; i < array.length - 1; i++) {
+    for (let i = 0; i < array.length - 1; i++) {
 
-      let cuurentEl = array[i];
+      let currentEl = array[i];
       let nextEl = array[i + 1];
 
       // если текущий елемент больше чем слудующий то переставлякм
       // их местами и продолжаем перебор элементов
-      if (cuurentEl > nextEl) {
+      if (currentEl > nextEl) {
         switchElArray(array, i, i + 1);
         switcher = true;
       }
