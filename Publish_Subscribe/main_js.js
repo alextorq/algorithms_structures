@@ -1,61 +1,58 @@
-var pubsub = {};
+const pubsub = {};
 
-//Пространство имен не загрезняет глоб область
-//Singleton
-(function(myObject) {
+// Пространство имен не загрезняет глоб область
+// Singleton
+(function (myObject) {
+  // Хранилище тем
+  const topics = {};
 
-    // Хранилище тем
-    var topics = {};
+  // Идентификатор темы
+  let subUid = -1;
 
-    // Идентификатор темы
-    var subUid = -1;
+  // Публикация и вещание события с
+  // уникальным именем и аргументами
+  myObject.publish = function (topic, args) {
+    if (!topics[topic]) {
+      return false;
+    }
 
-    // Публикация и вещание события с
-    // уникальным именем и аргументами
-    myObject.publish = function( topic, args ) {
+    const subscribers = topics[topic];
+    let len = subscribers ? subscribers.length : 0;
 
-        if ( !topics[topic] ) {
-            return false;
+    while (len--) {
+      subscribers[len].func(topic, args);
+    }
+
+    return this;
+  };
+
+  // Подписка на события с уникальным
+  // именем и колбэком
+  myObject.subscribe = function (topic, func) {
+    if (!topics[topic]) {
+      topics[topic] = [];
+    }
+
+    const token = (++subUid).toString();
+    topics[topic].push({
+      token,
+      func,
+    });
+    return token;
+  };
+
+  // Отписка от темы
+  myObject.unsubscribe = function (token) {
+    for (const m in topics) {
+      if (topics[m]) {
+        for (let i = 0, j = topics[m].length; i < j; i++) {
+          if (topics[m][i].token === token) {
+            topics[m].splice(i, 1);
+            return token;
+          }
         }
-
-        var subscribers = topics[topic],
-            len = subscribers ? subscribers.length : 0;
-
-        while (len--) {
-            subscribers[len].func( topic, args );
-        }
-
-        return this;
-    };
-
-    // Подписка на события с уникальным
-    // именем и колбэком
-    myObject.subscribe = function( topic, func ) {
-
-        if (!topics[topic]) {
-            topics[topic] = [];
-        }
-
-        var token = ( ++subUid ).toString();
-        topics[topic].push({
-            token: token,
-            func: func
-        });
-        return token;
-    };
-
-    // Отписка от темы
-    myObject.unsubscribe = function( token ) {
-        for ( var m in topics ) {
-            if ( topics[m] ) {
-                for ( var i = 0, j = topics[m].length; i < j; i++ ) {
-                    if ( topics[m][i].token === token ) {
-                        topics[m].splice( i, 1 );
-                        return token;
-                    }
-                }
-            }
-        }
-        return this;
-    };
-}( pubsub ));
+      }
+    }
+    return this;
+  };
+}(pubsub));

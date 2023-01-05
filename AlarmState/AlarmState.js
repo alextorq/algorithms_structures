@@ -1,6 +1,6 @@
 import State from './State';
-import ClockState from './ClockState'
-import BellState from './BellState'
+import ClockState from './ClockState';
+import BellState from './BellState';
 
 export default class AlarmState extends State {
   constructor(clock) {
@@ -14,35 +14,37 @@ export default class AlarmState extends State {
     if (this.clock.isAlarmTime() && this.clock.isAlarmOn()) {
       this.clock.setState(BellState);
     }
-   
   }
 
-
   _setAlarmMinutes(increment) {
-    if(increment) {
+    if (increment) {
       this.clock.alarmMinute = (this.clock.alarmMinute + 1) % 60;
-    }else {
+    } else {
       this.clock.alarmMinute = this.clock.alarmMinute ? (this.clock.alarmMinute - 1) : 59;
     }
   }
+
   _setAlarmHours(increment) {
-    if(increment) {
+    if (increment) {
       this.clock.alarmHour = (this.clock.alarmHour + 1) % 24;
-    }else {
+    } else {
       this.clock.alarmHour = this.clock.alarmHour ? (this.clock.alarmHour - 1) : 24;
     }
   }
 
   clickMode() {
-    return this.clock.setState(ClockState)
+    return this.clock.setState(ClockState);
   }
+
   longClickMode() {
     return new Error('abstract method');
   }
+
   clickH() {
     this._setAlarmHours(true);
   }
+
   clickM() {
-    this._setAlarmMinutes(true)
+    this._setAlarmMinutes(true);
   }
 }

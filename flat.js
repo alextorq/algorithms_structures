@@ -1,5 +1,4 @@
-let arr = ['a', 'b', 'c', ['f', ['m', 'n']], 'z', 'w'];
-
+const arr = ['a', 'b', 'c', ['f', ['m', 'n']], 'z', 'w'];
 
 /**
  * flat array
@@ -7,14 +6,14 @@ let arr = ['a', 'b', 'c', ['f', ['m', 'n']], 'z', 'w'];
  * @return {Array}
  */
 function flat(data) {
-    return data.reduce((accum, item) => {
-        if (Array.isArray(item)) {
-            accum.push(...flat(item));
-        }else {
-            accum.push(item);
-        }
-        return accum;
-    }, []);
+  return data.reduce((accum, item) => {
+    if (Array.isArray(item)) {
+      accum.push(...flat(item));
+    } else {
+      accum.push(item);
+    }
+    return accum;
+  }, []);
 }
 
 console.log(flat(arr));

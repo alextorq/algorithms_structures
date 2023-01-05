@@ -4,33 +4,32 @@
  * @return {string}
  */
 function iota(i) {
-    let result = []
-    let first = true
+  const result = [];
+  let first = true;
 
-    if (i < 0) {
-        return ''
+  if (i < 0) {
+    return '';
+  }
+
+  while (i > 1) {
+    const count = i % 10;
+    let tmp = Math.floor(count);
+    if (first) {
+      tmp = count;
     }
+    i /= 10;
+    result.push(tmp);
+    first = false;
+  }
 
-    while (i > 1) {
-        const count = i % 10
-        let tmp = Math.floor(count)
-        if (first) {
-            tmp = count
-        }
-        i = i / 10
-        result.push(tmp)
-        first = false
-    }
-
-    return result.reverse().join('')
+  return result.reverse().join('');
 }
 
-console.log(iota(123.5) === '123.5')
-console.log(iota(123.51111) === '123.51111')
+console.log(iota(123.5) === '123.5');
+console.log(iota(123.51111) === '123.51111');
 
-
-
-
-for (var i = 0; i<10; i++) {
-    !function m(i) { setTimeout(() => console.log(i), 0)}()
+for (let i = 0; i < 10; i++) {
+  !(function m(i) {
+    setTimeout(() => console.log(i), 0);
+  }());
 }

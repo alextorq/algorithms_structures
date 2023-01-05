@@ -5,7 +5,7 @@ class FSM {
 
   setState(state) {
     if (state) {
-        this.activeState = state;
+      this.activeState = state;
     }
   }
 

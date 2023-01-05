@@ -1,11 +1,10 @@
 function createStore(reducer, initialState) {
-    let state = initialState
-    return {
-        dispatch: action => { state = reducer(state, action) },
-        getState: () => state,
-    }
+  let state = initialState;
+  return {
+    dispatch: (action) => { state = reducer(state, action); },
+    getState: () => state,
+  };
 }
-
 
 // Инициализация хранилища
 function todosReducer(state, action) {
@@ -16,38 +15,38 @@ function todosReducer(state, action) {
         {
           id: action.id,
           text: action.text,
-          completed: false
-        }
-      ]
+          completed: false,
+        },
+      ];
     case 'TOGGLE_TODO':
-      return state.map(todo => {
+      return state.map((todo) => {
         if (todo.id === action.id) {
-          return { ...todo, completed: !todo.completed }
+          return { ...todo, completed: !todo.completed };
         }
-        return todo
-      })
+        return todo;
+      });
     default:
-      return state
+      return state;
   }
 }
 
-const initialTodos = []
+const initialTodos = [];
 
-const store = createStore(todosReducer, initialTodos)
+const store = createStore(todosReducer, initialTodos);
 
 // Использование
 store.dispatch({
   type: 'ADD_TODO',
   id: 1,
-  text: 'Понять насколько redux прост'
-})
+  text: 'Понять насколько redux прост',
+});
 
-store.getState() 
+store.getState();
 // [{ id: 1, text: 'Понять насколько redux прост', completed: false }]
 
 store.dispatch({
   type: 'TOGGLE_TODO',
-  id: 1
-})
+  id: 1,
+});
 
-console.log(store.getState() )
+console.log(store.getState());

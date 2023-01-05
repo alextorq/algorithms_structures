@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,9 +22,67 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bbed59-1aa5-4b50-ba4d-29ff8c318198" name="Default" comment="add matrix">
-      <change afterPath="$PROJECT_DIR$/request.js" afterDir="false" />
+    <list default="true" id="d1bbed59-1aa5-4b50-ba4d-29ff8c318198" name="Default" comment="some">
+      <change afterPath="$PROJECT_DIR$/asyncQueue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containsDuplicate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/findTheDifference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intersectionArrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plusOne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reversChars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlarmState/AlarmClock.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlarmState/AlarmClock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlarmState/AlarmState.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlarmState/AlarmState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlarmState/BellState.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlarmState/BellState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlarmState/ClockState.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlarmState/ClockState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlarmState/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlarmState/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSM/main_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/FSM/main_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Publish_Subscribe/main_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Publish_Subscribe/main_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/asyncFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binar.js" beforeDir="false" afterPath="$PROJECT_DIR$/binar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarThee.js" beforeDir="false" afterPath="$PROJECT_DIR$/binarThee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brackets.js" beforeDir="false" afterPath="$PROJECT_DIR$/brackets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble.js" beforeDir="false" afterPath="$PROJECT_DIR$/bubble.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine/combine.js" beforeDir="false" afterPath="$PROJECT_DIR$/combine/combine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concat.js" beforeDir="false" afterPath="$PROJECT_DIR$/concat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataWatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataWatcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/differentArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/differentArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/fib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finite_state_machine.js" beforeDir="false" afterPath="$PROJECT_DIR$/finite_state_machine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flat.js" beforeDir="false" afterPath="$PROJECT_DIR$/flat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getQuadrant.js" beforeDir="false" afterPath="$PROJECT_DIR$/getQuadrant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getRawType.js" beforeDir="false" afterPath="$PROJECT_DIR$/getRawType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iota.js" beforeDir="false" afterPath="$PROJECT_DIR$/iota.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isertSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/isertSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked list/LinkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked list/LinkedList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list-cycle.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list-cycle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/main_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/matrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxCommonPrefix.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxCommonPrefix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxSubstring.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxSubstring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/mergeArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniWatterWall.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniWatterWall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polindrom.js" beforeDir="false" afterPath="$PROJECT_DIR$/polindrom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverseLinkedList/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/reverseLinkedList/Node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverseLinkedList/reverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/reverseLinkedList/reverse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverseword.js" beforeDir="false" afterPath="$PROJECT_DIR$/reverseword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rundom_sort/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/rundom_sort/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seasons/seasons.js" beforeDir="false" afterPath="$PROJECT_DIR$/seasons/seasons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seasons/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/seasons/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/solution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortDiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortZero.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortZero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/sum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switchArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/switchArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic.js" beforeDir="false" afterPath="$PROJECT_DIR$/tic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wait-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/wait-loader.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +102,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1Pe6CC9ClnlNVS6KfzwQFeZJdqb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,21 +113,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
-    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alex/projects/algorithms_structures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.flat.js">
+  <component name="RunManager" selected="npm.lint-fix">
     <configuration name="test.js" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -74,16 +144,23 @@
       <test-file value="$PROJECT_DIR$/seasons/test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="combine.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/combine/combine.js" working-dir="$PROJECT_DIR$">
+    <configuration name="containsDuplicate.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/containsDuplicate.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="flat.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/flat.js" working-dir="$PROJECT_DIR$">
+    <configuration name="maxSubstring.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/maxSubstring.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="matrix.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/matrix.js" working-dir="$PROJECT_DIR$">
+    <configuration name="reversChars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/reversChars.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="tic.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tic.js" working-dir="$PROJECT_DIR$">
+    <configuration name="lint-fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint-fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -98,18 +175,18 @@
     </configuration>
     <list>
       <item itemvalue="Jest.test.js" />
-      <item itemvalue="Node.js.matrix.js" />
-      <item itemvalue="Node.js.tic.js" />
-      <item itemvalue="Node.js.combine.js" />
-      <item itemvalue="Node.js.flat.js" />
+      <item itemvalue="Node.js.reversChars.js" />
+      <item itemvalue="Node.js.containsDuplicate.js" />
+      <item itemvalue="Node.js.maxSubstring.js" />
+      <item itemvalue="npm.lint-fix" />
       <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.flat.js" />
-        <item itemvalue="Node.js.combine.js" />
-        <item itemvalue="Node.js.tic.js" />
-        <item itemvalue="Node.js.matrix.js" />
+        <item itemvalue="npm.lint-fix" />
+        <item itemvalue="Node.js.maxSubstring.js" />
+        <item itemvalue="Node.js.reversChars.js" />
+        <item itemvalue="Node.js.containsDuplicate.js" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
@@ -171,7 +248,61 @@
       <workItem from="1575212192085" duration="858000" />
       <workItem from="1575214156939" duration="4000" />
       <workItem from="1590427798820" duration="146000" />
-      <workItem from="1610200639977" duration="45000" />
+      <workItem from="1610200639977" duration="79000" />
+      <workItem from="1613295627805" duration="255000" />
+      <workItem from="1613295990466" duration="192000" />
+      <workItem from="1613316432119" duration="2558000" />
+      <workItem from="1613336574740" duration="529000" />
+      <workItem from="1613469083156" duration="1842000" />
+      <workItem from="1613659815392" duration="373000" />
+      <workItem from="1614254900357" duration="75000" />
+      <workItem from="1614341151454" duration="1277000" />
+      <workItem from="1614693688952" duration="182000" />
+      <workItem from="1614869341664" duration="10000" />
+      <workItem from="1633257466592" duration="446000" />
+      <workItem from="1633534023015" duration="282000" />
+      <workItem from="1641301071155" duration="6427000" />
+      <workItem from="1641388044665" duration="745000" />
+      <workItem from="1641470753105" duration="1903000" />
+      <workItem from="1641547611679" duration="1104000" />
+      <workItem from="1642248890379" duration="1650000" />
+      <workItem from="1642336752571" duration="3360000" />
+      <workItem from="1642431628083" duration="13000" />
+      <workItem from="1643467696891" duration="825000" />
+      <workItem from="1643819253750" duration="1000" />
+      <workItem from="1643819265082" duration="711000" />
+      <workItem from="1650726824940" duration="1249000" />
+      <workItem from="1650913507791" duration="4000" />
+      <workItem from="1651576547748" duration="2839000" />
+      <workItem from="1651688746119" duration="91000" />
+      <workItem from="1651688907899" duration="29000" />
+      <workItem from="1651688960022" duration="2903000" />
+      <workItem from="1651856375969" duration="134000" />
+      <workItem from="1651856582263" duration="698000" />
+      <workItem from="1651857329880" duration="623000" />
+      <workItem from="1651861472411" duration="131000" />
+      <workItem from="1651920062203" duration="11338000" />
+      <workItem from="1657228433861" duration="506000" />
+      <workItem from="1666034733072" duration="17000" />
+      <workItem from="1666034756080" duration="2803000" />
+      <workItem from="1668108359270" duration="67000" />
+      <workItem from="1668254536089" duration="1318000" />
+      <workItem from="1668255863088" duration="531000" />
+      <workItem from="1669911685106" duration="522000" />
+      <workItem from="1670149528607" duration="20000" />
+      <workItem from="1670149554621" duration="69000" />
+      <workItem from="1671993032577" duration="29000" />
+      <workItem from="1672170798408" duration="222000" />
+      <workItem from="1672422651428" duration="1761000" />
+      <workItem from="1672660820370" duration="17000" />
+      <workItem from="1672681158074" duration="241000" />
+      <workItem from="1672681700558" duration="4000" />
+      <workItem from="1672681710541" duration="1796000" />
+      <workItem from="1672778797470" duration="6987000" />
+      <workItem from="1672933900219" duration="628000" />
+      <workItem from="1672936346738" duration="70000" />
+      <workItem from="1672936593816" duration="419000" />
+      <workItem from="1672937415494" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1548496652542</created>
@@ -257,7 +388,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569670878630</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add request chunks">
+      <created>1610200698469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610200698469</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add concat sort arrays">
+      <created>1613296034787</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613296034788</updated>
+    </task>
+    <task id="LOCAL-00015" summary="some">
+      <created>1668256359574</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668256359574</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -282,7 +434,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -295,12 +446,9 @@
     <MESSAGE value="add fix stack" />
     <MESSAGE value="add fix to palindrome" />
     <MESSAGE value="add matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="add matrix" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="649" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590427804124">
-      <screen x="0" y="24" width="1920" height="1056" />
-    </state>
-    <state x="649" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1590427804124" />
+    <MESSAGE value="add request chunks" />
+    <MESSAGE value="add concat sort arrays" />
+    <MESSAGE value="some" />
+    <option name="LAST_COMMIT_MESSAGE" value="some" />
   </component>
 </project>

@@ -5,20 +5,17 @@
  * @param {Function} cb
  */
 export default function asyncFilter(coll, predicate, cb) {
+  const iter = ([head, ...rest], acc) => {
+    if (predicate(head)) {
+      acc.push(head);
+    }
+    if (rest.length === 0) {
+      cb(acc);
+      return;
+    }
 
-    const iter = ([head, ...rest], acc) => {
+    setTimeout(iter, 0, rest, acc);
+  };
 
-        if(predicate(head)) {
-            acc.push(head);
-        }
-        if(rest.length === 0) {
-            cb(acc);
-            return
-        }
-
-        setTimeout(iter, 0, rest, acc);
-    };
-
-    iter(coll, []);
+  iter(coll, []);
 }
-

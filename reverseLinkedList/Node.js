@@ -1,16 +1,16 @@
 class Node {
-    constructor(value, node = null) {
-        this.next = node;
-        this.value = value;
-    }
+  constructor(value, node = null) {
+    this.next = node;
+    this.value = value;
+  }
 
-    getNext() {
-        return this.next;
-    }
+  getNext() {
+    return this.next;
+  }
 
-    getValue() {
-        return this.value;
-    }
+  getValue() {
+    return this.value;
+  }
 }
 
 export default Node;

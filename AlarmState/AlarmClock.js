@@ -1,5 +1,5 @@
-import BellState from './BellState'
-import ClockState from './ClockState'
+import BellState from './BellState';
+import ClockState from './ClockState';
 
 class AlarmClock {
   constructor(State) {
@@ -10,6 +10,7 @@ class AlarmClock {
     this.alarmON = false;
     this.setState(ClockState);
   }
+
   setState(State) {
     this.state = new State(this);
   }
@@ -17,9 +18,11 @@ class AlarmClock {
   minutes() {
     return this.minute;
   }
+
   hours() {
     return this.hour;
   }
+
   alarmMinutes() {
     return this.alarmMinute;
   }
@@ -31,6 +34,7 @@ class AlarmClock {
   isAlarmOn() {
     return this.alarmON;
   }
+
   isAlarmTime() {
     return this.minute === this.alarmMinute && this.hour === this.alarmHour;
   }
@@ -39,16 +43,18 @@ class AlarmClock {
     return this.state.mode;
   }
 
-
   clickMode() {
     this.state.clickMode();
   }
+
   longClickMode() {
     this.alarmON = !this.alarmON;
   }
+
   clickH() {
-     this.state.clickH();
+    this.state.clickH();
   }
+
   clickM() {
     this.state.clickM();
   }

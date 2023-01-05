@@ -3,9 +3,9 @@ export default function solution(text) {
   let state = 'search_first_char';
   let firstWord = '';
   for (let i = 0; i < text.length; i += 1) {
-    let char = text[i];
+    const char = text[i];
     switch (state) {
-      case 'in_start_word' :
+      case 'in_start_word':
         if (char === ' ' || char === '\n') {
           result.push(firstWord);
           firstWord = '';
@@ -27,5 +27,5 @@ export default function solution(text) {
         break;
     }
   }
-  return result
+  return result;
 }

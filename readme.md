@@ -1,1 +1,1 @@
-my collection algorithms ad structures 
+my collection algorithms ad structures
