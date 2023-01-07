@@ -10,11 +10,17 @@ function findTheDifference(s, t) {
   const forCheck = s.length > t.length ? t : s;
 
   for (const forTestElement of forCheck) {
-    map.set(forTestElement, true);
+    const prev = map.get(forTestElement) || 0;
+    map.set(forTestElement, prev + 1);
   }
 
   for (const forTestElement of forTest) {
-    if (!map.has(forTestElement)) {
+    const newValue = map.get(forTestElement);
+    if (newValue) {
+      if (newValue) {
+        map.set(forTestElement, newValue - 1);
+      }
+    } else {
       result = forTestElement;
       break;
     }

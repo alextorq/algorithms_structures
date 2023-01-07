@@ -1,8 +1,8 @@
 /**
  *  Async filter array
- * @param {array} coll
+ * @param {Array} coll
  * @param {(item: any) => boolean} predicate
- * @param {Function} cb
+ * @param {(items: Array) => void} cb
  */
 export default function asyncFilter(coll, predicate, cb) {
   const iter = ([head, ...rest], acc) => {
