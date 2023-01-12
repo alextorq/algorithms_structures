@@ -82,6 +82,42 @@ queue.add('asd 5');
 
 // queue.loop()
 
+class AsyncQueueWithoutProcess {
+  constructor(processTask, amountTreads, emptyHandler) {
+    this.processTask = processTask;
+    this.amountTreads = amountTreads;
+    this.emptyHandler = emptyHandler;
+
+    this.tasks = [];
+    this.remainder = 0;
+  }
+
+  add(taskPayload) {
+    const task = new TaskCb(taskPayload);
+    this.tasks.push(task);
+    this.remainder += 1;
+  }
+
+  loop(amount = this.amountTreads) {
+    const processed = this.tasks.splice(0, amount);
+
+    if (this.checkIsDone()) return this.emptyHandler();
+
+    processed.forEach((task) => {
+      task.execute(this.processTask, this.doneTask.bind(this, task));
+    });
+  }
+
+  doneTask() {
+    this.remainder -= 1;
+    this.loop(1);
+  }
+
+  checkIsDone() {
+    return this.remainder === 0;
+  }
+}
+
 class AsyncQueueCb {
   constructor(processTask, amountTreads, emptyHandler) {
     this.processTask = processTask;
@@ -118,7 +154,7 @@ class AsyncQueueCb {
   }
 }
 
-const queueCb = new AsyncQueueCb(rundomExecute, 3, () => console.log('all done'));
+const queueCb = new AsyncQueueWithoutProcess(rundomExecute, 3, () => console.log('all done'));
 
 queueCb.add('asd 1');
 queueCb.add('asd 2');

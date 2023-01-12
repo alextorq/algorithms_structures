@@ -27,9 +27,3 @@ function iota(i) {
 
 console.log(iota(123.5) === '123.5');
 console.log(iota(123.51111) === '123.51111');
-
-for (let i = 0; i < 10; i++) {
-  !(function m(i) {
-    setTimeout(() => console.log(i), 0);
-  }());
-}

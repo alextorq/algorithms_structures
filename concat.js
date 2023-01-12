@@ -1,5 +1,5 @@
-const a = [0, 4, 7, 8, 900];
-const b = [1, 1, 1, 1, 1, 1, 1, 1, 1, 10, 15, 400, 550];
+const aI = [0, 4, 7, 8, 900];
+const bI = [1, 1, 1, 1, 1, 1, 1, 1, 1, 10, 15, 400, 550];
 
 function concatSort(a, b) {
   const res = [];
@@ -23,5 +23,5 @@ function concatSort(a, b) {
   return res;
 }
 
-const res = concatSort(a, b);
+const res = concatSort(aI, bI);
 console.log(res);

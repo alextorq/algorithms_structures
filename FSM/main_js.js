@@ -1,4 +1,4 @@
-export default function solution(text) {
+function solution(text) {
   const result = [];
   let state = 'search_first_char';
   let firstWord = '';
