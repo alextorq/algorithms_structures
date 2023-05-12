@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/longest-common-prefix/description/
 /**
  * @param {string[]} strs
  * @return {string}
@@ -42,6 +43,7 @@ function longestCommonPrefix2(strs) {
  * @return {string}
  */
 function longestCommonPrefix3(strs) {
+  // Сравниваются коды символов, после наиболее различные строки будут на разных концах
   strs.sort();
   const first = strs[0];
   const last = strs[strs.length - 1];

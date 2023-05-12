@@ -2,8 +2,8 @@ const arr = ['a', 'b', 'c', ['f', ['m', 'n']], 'z', 'w'];
 
 /**
  * flat array
- * @param data {Array}
- * @return {Array}
+ * @param data {Array<T>}
+ * @return {Array<T>}
  */
 function flat(data) {
   return data.reduce((accum, item) => {
