@@ -22,16 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1bbed59-1aa5-4b50-ba4d-29ff8c318198" name="Default" comment="add eslint">
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    <list default="true" id="d1bbed59-1aa5-4b50-ba4d-29ff8c318198" name="Default" comment="add">
+      <change afterPath="$PROJECT_DIR$/missingNumber.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSM/main_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/FSM/main_js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asyncQueue.js" beforeDir="false" afterPath="$PROJECT_DIR$/asyncQueue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concat.js" beforeDir="false" afterPath="$PROJECT_DIR$/concat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iota.js" beforeDir="false" afterPath="$PROJECT_DIR$/iota.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list-cycle-detect.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list-cycle-detect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxCommonPrefix.js" beforeDir="false" afterPath="$PROJECT_DIR$/maxCommonPrefix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,30 +55,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/alex/projects/algorithms_structures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alex/projects/algorithms_structures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.flat.js">
+  <component name="RunManager" selected="Node.js.missingNumber.js">
     <configuration name="test.js" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
@@ -93,43 +86,36 @@
       <test-file value="$PROJECT_DIR$/seasons/test.js" />
       <method v="2" />
     </configuration>
-    <configuration name="addStrings.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/addStrings.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="asyncQueue.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asyncQueue.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="flat.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/flat.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="iota.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/iota.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="lint-fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="lint-fix" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="lastWordLength.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lastWordLength.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="letterCombinations.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/letterCombinations.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="maxProfit.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/maxProfit.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="missingNumber.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/missingNumber.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.test.js" />
-      <item itemvalue="Node.js.flat.js" />
-      <item itemvalue="Node.js.asyncQueue.js" />
+      <item itemvalue="Node.js.missingNumber.js" />
+      <item itemvalue="Node.js.lastWordLength.js" />
+      <item itemvalue="Node.js.letterCombinations.js" />
+      <item itemvalue="Node.js.maxProfit.js" />
       <item itemvalue="Node.js.iota.js" />
-      <item itemvalue="Node.js.addStrings.js" />
-      <item itemvalue="npm.lint-fix" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.flat.js" />
+        <item itemvalue="Node.js.missingNumber.js" />
+        <item itemvalue="Node.js.lastWordLength.js" />
+        <item itemvalue="Node.js.letterCombinations.js" />
+        <item itemvalue="Node.js.maxProfit.js" />
         <item itemvalue="Node.js.iota.js" />
-        <item itemvalue="Node.js.asyncQueue.js" />
-        <item itemvalue="Node.js.addStrings.js" />
-        <item itemvalue="npm.lint-fix" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +238,28 @@
       <workItem from="1673294810074" duration="4000" />
       <workItem from="1673366711495" duration="124000" />
       <workItem from="1673443320986" duration="522000" />
-      <workItem from="1673538083595" duration="848000" />
+      <workItem from="1673538083595" duration="3777000" />
+      <workItem from="1673595376868" duration="3616000" />
+      <workItem from="1673720236731" duration="2322000" />
+      <workItem from="1673782071000" duration="1239000" />
+      <workItem from="1673789020061" duration="156000" />
+      <workItem from="1673893854274" duration="1940000" />
+      <workItem from="1673977213220" duration="2417000" />
+      <workItem from="1674058847132" duration="544000" />
+      <workItem from="1674388579747" duration="69000" />
+      <workItem from="1674389342942" duration="2005000" />
+      <workItem from="1674660204200" duration="160000" />
+      <workItem from="1674660369536" duration="300000" />
+      <workItem from="1674676396199" duration="342000" />
+      <workItem from="1674676822737" duration="1273000" />
+      <workItem from="1674938994012" duration="21000" />
+      <workItem from="1675102573561" duration="38000" />
+      <workItem from="1675102619034" duration="176000" />
+      <workItem from="1675102801783" duration="517000" />
+      <workItem from="1683894381645" duration="1604000" />
+      <workItem from="1684247371092" duration="3069000" />
+      <workItem from="1684317500259" duration="598000" />
+      <workItem from="1684409990913" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1548496652542</created>
@@ -380,7 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673100967552</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="format">
+      <created>1673541782671</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673541782671</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add">
+      <created>1683895590551</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683895590551</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -421,6 +442,8 @@
     <MESSAGE value="add concat sort arrays" />
     <MESSAGE value="some" />
     <MESSAGE value="add eslint" />
-    <option name="LAST_COMMIT_MESSAGE" value="add eslint" />
+    <MESSAGE value="format" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
